@@ -1,0 +1,49 @@
+/* Home2.css */
+
+/* Styling for the container holding the menu */
+.Home2 {
+    background-color: white; /* Background color */
+    color: #fff; /* Text color */
+    padding: 40px;
+  }
+  
+  /* Styling for the menu icon */
+  .menu-icons {
+    cursor: pointer;
+    font-size: 24px;
+    margin: 10px;
+  }
+  
+  /* Styling for individual menu items */
+  .Home2 li {
+    list-style: none;
+    margin: 10px 0;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s;
+  }
+  
+  /* Styling for the links inside menu items */
+  .Home2 a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* Change link color on hover */
+  .Home2 a:hover {
+    color: #f39c12;
+  }
+  
+  /* Styling for the icons in menu items */
+  .Home2 i {
+    margin-right: 10px;
+  }
+  
+  /* Background effect on menu item hover */
+  .Home2 li:hover {
+    background-color: #f39c12;
+    border-radius: 5px;
+    padding: 8px;
+    transform: scale(1.1); 
+  }  

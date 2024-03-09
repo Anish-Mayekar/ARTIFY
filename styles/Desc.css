@@ -1,0 +1,51 @@
+.Desc {
+    padding-top: 10vh;
+    padding-left: 12vh;
+    padding-bottom: 15vh;
+    height: auto;
+    background-color:whitesmoke;
+    color: fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    text-align: left;
+    font-family: Arial, sans-serif; /* You can change the font family as needed */
+}
+  
+  .Desc h1 {
+    font-size: 2.5rem; /* Change the font size as desired */
+    text-align: left; /* Align the title to the left */
+    width: 50%;
+  }
+  
+  .Desc p {
+    font-size: 0.9rem; /* Change the font size of paragraphs as desired */
+    text-align: left; /* Align paragraphs to the left */
+    margin-bottom: 1rem; /* Add some spacing between paragraphs */
+    width: 50%;
+
+  }
+  
+  
+  .Desc button {
+    font-size: 1rem; /* Change the font size of the button as desired */
+    text-align: center; /* Align the button to the left */
+    margin-left: 1rem;
+    margin-top: 2rem;
+    background-color: #01959a;
+    justify-content: space-between;
+    
+  }
+
+  @media screen and (max-width:850px) {
+    .Desc {
+      padding-right: 100px;
+    }
+
+    .Desc p {
+    width: 100%;
+    text-align: center;
+
+  }
+  }
